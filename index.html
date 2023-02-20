@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="score-board">
+                <div class="score">
+                    <h2>Score</h2>
+                    <p >Your Score : <span class="user-score"></span></p>
+                    <p>|</p>
+                    <p >Computer Score : <span class="computer-score"></span></p>
+                </div>
+            </div>
+            <div class="rps choice">
+                <button value="Rock" class="rpsBtn">Rock</button>
+                <button value="Paper" class="rpsBtn">Paper</button>
+                <button value="Scissor" class="rpsBtn">Scissor</button>
+            </div>
+            <div class="result">
+                <p class="your-choice"></p>
+                <p class="result-text"></p>
+                <p class="comp-choice"></p>
+            </div>
+                <button class="btn">Restart</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
